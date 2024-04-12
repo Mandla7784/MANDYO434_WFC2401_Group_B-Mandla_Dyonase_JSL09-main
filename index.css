@@ -1,0 +1,103 @@
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+
+}
+.coin-top{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+.coin-top p{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.7em;
+}
+#time {
+    text-align: center;
+    font-size: 90px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #time {
+      font-size: 40px;
+    }
+  }
+
+#coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#coin span {
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+#users{
+    font-size: 24px;
+    margin-bottom:2em;
+}
+
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+div#weather > img {
+    width: 70px;
+}
+
+
+.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 24px;
+    margin-right: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 209, 197);
+    padding: 0.2em 1.5em;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.2em;
+    color: orangered;
+}
+
+
+.weather-city:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
